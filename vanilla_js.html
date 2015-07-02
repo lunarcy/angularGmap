@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Javascript Exercise 1</title>
+  </head>
+  <body role="document">
+    <div class="container" role="main">
+      
+    <!-- Url Query String processing -->
+    <script src="js/url_query_string.js"></script>
+
+    </div> <!-- container -->
+    <script >
+      // Get the Query string from the URL, trim the '?' on the left beginning. 
+      var qryStr = window.location.search.substr(1);
+      var qryObj = {};
+
+      // Print out the Params in JSON, when the number of params reached 4.
+      if(qryStr.split('&').length >= 4) {
+        // call the parseParams function to gen the query string object from url params value pair. 
+        qryObj = parseParams( qryStr );
+
+        // Print out the query string params in a json format. 
+        document.write( JSON.stringify( qryObj ) );
+
+        // Set the query string params into cookie with 72 hours expiration.
+        setCookieWithParams(qryObj, 72);
+
+        // Set the query string params into a local storage. 
+        setLocalStorage(qryObj);
+      }
+      else {
+        console.log( 'You need more than 4 params in the URL Query string.' );
+      }
+
+
+      /*(function(event, type){
+          // Private Var
+          vin = '123abc';
+
+          getVin = function(){
+            ...
+          }
+
+      })(this);*/
+
+    </script>
+
+  </body>
+</html>

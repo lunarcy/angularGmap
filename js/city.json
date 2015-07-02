@@ -1,0 +1,44 @@
+[
+    {
+        "city": "Miami",
+        "desc": "The Capital of Latin America",
+        "video": "https://www.youtube.com/embed/58iT2L4VQj4?autoplay=1",
+        "lat": 25.7753,
+        "long": -80.2089
+    },
+    { 
+        "city": "New York",
+        "desc": "Big Apple",
+        "video": "https://www.youtube.com/embed/MtCMtC50gwY?autoplay=1",
+        "lat": 40.67,
+        "long": -73.94
+    },
+    {
+        "city": "New Haven",
+        "desc": "Yale, Pizza",
+        "video": "https://www.youtube.com/embed/HcOf7G8eSB0?controls=2",
+        "lat": 41.31,
+        "long": -72.9236
+    },
+    {
+        "city": "Chicago",
+        "desc": "The second best city in the world!",
+        "video": "https://www.youtube.com/embed/QSwvg9Rv2EI",
+        "lat": 41.8819,
+        "long": -87.6278
+    },
+    {
+        "city": "Los Angeles",
+        "desc": "This city is live!",
+        "video": "https://www.youtube.com/embed/bTvr_2v-0HI",
+        "lat": 34.05,
+        "long": -118.25
+    },
+    {
+        "city": "Las Vegas",
+        "desc": "Sin City...",
+        "video": "https://www.youtube.com/embed/hB--xo-Ag4Y",
+        "lat": 36.08,
+        "long": -115.1522
+    }
+]
